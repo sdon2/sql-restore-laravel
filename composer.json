@@ -1,0 +1,23 @@
+{
+    "name": "sdon2/sql-restore-laravel",
+    "description": "Restore database from SQL file(s) for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SqlRestoreLaravel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Saravanakumar Arumugam",
+            "email": "saravanakumar.a.o@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-zip": "*",
+        "illuminate/support": "^5.8|^6.0|^7.0|^8.0",
+        "spatie/temporary-directory": "^1.3",
+        "illuminate/console": "^5.8|^6.0|^7.0|^8.0"
+    }
+}
