@@ -23,7 +23,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "SqlRestoreLaravel\\SqlRestoreLaravelServiceProvider"
+                "SqlRestoreLaravel\\Providers\\SqlRestoreLaravelServiceProvider"
             ]
         }
     }
