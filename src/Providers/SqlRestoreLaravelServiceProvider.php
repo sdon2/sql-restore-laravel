@@ -1,11 +1,11 @@
 <?php
 
-namespace LibreTranslateLaravel;
+namespace SqlRestoreLaravel\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use SqlRestoreLaravel\Commands\AppMeditibbInit;
 
-class LibreTranslateServiceProvider extends ServiceProvider
+class SqlRestoreLaravelServiceProvider extends ServiceProvider
 {
     public function boot()
     {
