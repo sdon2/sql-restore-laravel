@@ -17,7 +17,7 @@ class AppMeditibbInit extends Command
      *
      * @var string
      */
-    protected $signature = 'appmeditibb:init {--Z|zip-file=database/dumps/db_dump.zip} {--S|sql-file=db_dump.sql}';
+    protected $signature = 'sql:restore {--Z|zip-file=database/dumps/db_dump.zip} {--S|sql-file=db_dump.sql}';
 
     /**
      * The console command description.
